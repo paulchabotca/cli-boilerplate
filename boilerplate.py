@@ -5,10 +5,10 @@
 
 from __future__ import print_function
 
-try:
-    from configparser import RawConfigParser
-except ImportError:
-    from ConfigParser import ConfigParser
+# try:
+from configparser import RawConfigParser, ConfigParser
+# except ImportError:
+#     from ConfigParser import ConfigParser
 from argparse import ArgumentParser, FileType
 from pprint import pprint
 from sys import exit, stderr
