@@ -38,6 +38,9 @@ parser.add_argument(
 #)
 
 def main():
+    args = parser.parse_args()
+    # Debug
+    print(args)
     print('Boilerplate')
 
 if __name__ == '__main__':
